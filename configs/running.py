@@ -15,7 +15,7 @@ class TrainConfig:
 
     batch_size = 8  # 2
     lr = 0.0005
-    num_epochs = 70
+    num_epochs = 20
     device = ""
 
 

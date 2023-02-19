@@ -143,7 +143,6 @@ def train(net: nn.Module, optimizer: torch.optim.Optimizer,
               f"Epoch{epoch + 1}:\n"
               f"Train loss: {train_loss.acc[0] / train_loss.cnt[0]: .3f}\n"
               f"****************************************************")
-        test(net, test_iter, test_config)
 
 
 def test(net: nn.Module, test_iter: data.DataLoader,
